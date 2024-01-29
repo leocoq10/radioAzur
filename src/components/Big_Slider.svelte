@@ -18,9 +18,9 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
   <style>
 
    .slide-big{
-    position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+       margin-bottom: 100px;
    }
 
    .slide-big img{

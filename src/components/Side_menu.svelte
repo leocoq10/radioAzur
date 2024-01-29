@@ -32,16 +32,18 @@ out:slide={{x:100}}
 .menu-bloc{
   background: white;
   color: #086ec5;
-  padding: 80px;
+  padding: 50px;
   float: left;
   z-index: 4;
-  position: relative;
+  position: fixed;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 27rem;
+  width: 21rem;
+  height: 100%;
   box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
   text-align: center;
+  overflow: hidden;
 
 animation: animation1 1s ease-in-out;
 }
@@ -49,8 +51,8 @@ animation: animation1 1s ease-in-out;
 .menu-bloc a {
   display: block;
   color: rgba(0, 0, 0, 0.466);
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 200;
   position: relative;
   
 }
@@ -62,7 +64,8 @@ animation: animation1 1s ease-in-out;
 .menu-bloc p {
   display: block;
   color: rgb(0, 0, 0);
-  font-size: 25px;
+  font-size: 23px;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 900;
   margin-top: 15px;
 }
