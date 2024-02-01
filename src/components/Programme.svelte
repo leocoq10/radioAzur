@@ -14,29 +14,29 @@
     <hr>
     <Splide  options={ { rewind: true , autoplay:true, paginationDirection: 'ltr', perPage:4, gap:15, wheel: true, releaseWheel: true, lazyLoad:'nearby'} }>
         <SplideSlide >
-            <img src="https://source.unsplash.com/random/800x450/" alt="Image 1"/>
+            <img src="https://source.unsplash.com/random/" alt="Image 1"/>
             <h5>Podium Jeunesse</h5>
             <small>Tous les Samedis</small>
             <small>11h30 - 12h30</small>
         </SplideSlide>
         <SplideSlide>
-            <img src="https://source.unsplash.com/random/800x450/" alt="Image 2"/>
+            <img src="https://source.unsplash.com/random/" alt="Image 2"/>
             <h5>Podium Jeunesse</h5>
         </SplideSlide>
         <SplideSlide>
-            <img src="https://source.unsplash.com/random/800x450/" alt="Image 3"/>
+            <img src="https://source.unsplash.com/random/" alt="Image 3"/>
             <h5>Podium Jeunesse</h5>
         </SplideSlide>
         <SplideSlide>
-            <img src="https://source.unsplash.com/random/800x450/" alt="Image 4"/>
+            <img src="https://source.unsplash.com/random" alt="Image 4"/>
             <h5>Podium Jeunesse</h5>
         </SplideSlide>
         <SplideSlide>
-            <img src="https://source.unsplash.com/random/800x450/" alt="Image 5"/>
+            <img src="https://source.unsplash.com/random" alt="Image 5"/>
             <h5>Podium Jeunesse</h5>
         </SplideSlide>
         <SplideSlide>
-            <img src="https://source.unsplash.com/random/800x450/" alt="Image 6"/>
+            <img src="https://source.unsplash.com/random" alt="Image 6"/>
             <h5>Podium Jeunesse</h5>
         </SplideSlide>
     </Splide>

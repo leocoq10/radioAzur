@@ -1,16 +1,40 @@
 <script>
 import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import imag1 from '../lib/img/img1.jpg'
+import imag2 from '../lib/img/img2.jpg'
+import imag3 from '../lib/img/img3.jpg'
+
+let images = [
+		{
+			src: imag1,
+			title: 'image1'
+		},
+
+    {
+			src: imag2,
+			title: 'image2'
+		},
+
+    {
+			src: imag3,
+			title: 'image3'
+		},
+
+		
+	];
+
 </script>
 
 <div class="slide-big">
-    <Splide  options={ { rewind: true , autoplay:true, paginationDirection: 'ltr', wheel: true, releaseWheel: true, lazyLoad:'nearby'} }>
+    <Splide  options={ { rewind: true , autoplay:true, autoWidth:true, paginationDirection: 'ltr', wheel: true, releaseWheel: true} }>
+
+        {#each images as {src, title} }
         <SplideSlide >
-          <img src="https://source.unsplash.com/random/800x450/" alt="Image 1"/>
+          <img {src} alt={title}/>
         </SplideSlide>
-        <SplideSlide>
-          <img src="https://source.unsplash.com/random/800x450/" alt="Image 2"/>
-        </SplideSlide>
+        {/each}
+
       </Splide>
 </div>
 
@@ -25,7 +49,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
    .slide-big img{
         width: 100%;
-        height: 100%;
+        height: 100vh;
      object-fit: cover;
     }
   </style>
