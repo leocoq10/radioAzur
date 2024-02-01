@@ -38,9 +38,11 @@
 
       
 <div class="newsletter">
-    <h6>S'inscrire a la newsletter</h6>
-    <input type="text">
-    <button type="submit">Envoyer</button>
+    <div class="input-mail">
+        <h6 class="font-light text-white mb-1">S'inscrire à la newsletter</h6>
+        <input class="block w-full p-2 mb-2 rounded-md outline-0" type="email" placeholder="Entrez votre email..." />
+        <button class="bg-blue-700 text-white p-1.5 rounded-md">S'inscrire</button>
+    </div>
 </div>
 
 </div>
@@ -50,13 +52,11 @@
 
 <style>
     .footer{
+        position: relative;
         width: 100%;
         height: 480px;
         background: #000000;
         padding: 20px 40px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
     }
 
 
@@ -64,7 +64,7 @@
         display: flex;
         flex-direction: row;
         gap: 100px;
-        justify-content: center;
+        justify-content: space-around;
 
     }
 
@@ -78,7 +78,7 @@
 
 
 
-    .container h4, h6{
+    .container h4{
         font-size: 1.5rem;
         font-weight: 900;
         color: whitesmoke;

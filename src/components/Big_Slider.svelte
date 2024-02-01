@@ -47,9 +47,4 @@ let images = [
        margin-bottom: 100px;
    }
 
-   .slide-big img{
-        width: 100%;
-        height: 100vh;
-     object-fit: cover;
-    }
   </style>
