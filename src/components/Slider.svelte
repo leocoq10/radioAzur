@@ -26,8 +26,9 @@
 
 </script>
 
-<div class="slide-big">
-    <Splide options={ { rewind: true , autoplay:true, autoWidth:true, paginationDirection: 'ltr', wheel: true, releaseWheel: true} }>
+<div class="slidio">
+    <Splide options={ {rewind:true, focus : 'center', autoWidth:true, pagination:true,  updateOnMove: true,
+ type        : 'loop', perPage     : 1, perMove     : 1,  loop: true, interval: 3000, autoplay:true,} }>
 
         {#each images as {src, title} }
             <SplideSlide>
@@ -41,9 +42,17 @@
 
 <style>
 
-    .slide-big {
+    .slidio {
         width: 100%;
+        height: 888px;
+        overflow: hidden;
         margin-bottom: 100px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
 </style>
