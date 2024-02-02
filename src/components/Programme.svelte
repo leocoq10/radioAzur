@@ -1,8 +1,8 @@
 <script>
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-    import imag4 from "$lib/img/img1.jpg";
-    import imag5 from "$lib/img/img2.jpg";
+    import imag4 from "$lib/img/carousel/img1.jpg";
+    import imag5 from "$lib/img/carousel/img2.jpg";
     import imag6 from "$lib/img/img6.jpg";
     import imag7 from "$lib/img/img7.jpg";
 

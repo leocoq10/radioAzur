@@ -1,58 +1,28 @@
 <script>
-    import {Splide, SplideSlide} from '@splidejs/svelte-splide';
-    import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-    import imag1 from '../lib/img/img1.jpg'
-    import imag2 from '../lib/img/img2.jpg'
-    import imag3 from '../lib/img/img3.jpg'
-
-    let images = [
+    import { Carousel } from 'flowbite-svelte';
+    export const images = [
         {
-            src: imag1,
-            title: 'image1'
+            alt: 'Cosmic timetraveler',
+            src: 'https://images.unsplash.com/photo-1706125356139-bf3c727c6a95?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            title: 'cosmic'
         },
-
         {
-            src: imag2,
-            title: 'image2'
+            alt: 'Cristina Gottardi',
+            src: '../img/carousel/img2.jpg',
+            title: 'cristina'
         },
-
         {
-            src: imag3,
-            title: 'image3'
+            alt: 'Johannes Plenio',
+            src: '../img/carousel/img3.jpg',
+            title: 'johannes'
         },
-
-
-    ];
-
+    ]
 </script>
 
-<div class="slidio">
-    <Splide options={ {rewind:true, focus : 'center', autoWidth:true, pagination:true,  updateOnMove: true,
- type        : 'loop', perPage     : 1, perMove     : 1,  loop: true, interval: 3000, autoplay:true,} }>
 
-        {#each images as {src, title} }
-            <SplideSlide>
-                <img {src} alt={title} />
-            </SplideSlide>
-        {/each}
 
-    </Splide>
+<div class="w-full">
+    <Carousel class="w-full h-[720px]" {images} imgClass="w-full"  let:Indicators >
+        <Indicators />
+    </Carousel>
 </div>
-
-
-<style>
-
-    .slidio {
-        width: 100%;
-        height: 888px;
-        overflow: hidden;
-        margin-bottom: 100px;
-    }
-
-    img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-</style>
