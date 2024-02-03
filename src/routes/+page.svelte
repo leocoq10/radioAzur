@@ -1,12 +1,12 @@
 <script>
-    import Slider from "../components/Slider.svelte"
+    import Big_Slider from "../components/Big_Slider.svelte"
     import LiveBox from "../components/LiveBox.svelte";
     import Programme from "../components/Programme.svelte";
 
 </script>
 
 <main>
-    <Slider/>
+    <Big_Slider/>
     <LiveBox/>
     <Programme/>
 </main>
