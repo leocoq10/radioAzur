@@ -9,7 +9,7 @@
         {
             alt: 'Cristina Gottardi',
             src: '../img/carousel/img2.jpg',
-            title: 'cristina'
+
         },
         {
             alt: 'Johannes Plenio',
