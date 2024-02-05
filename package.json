@@ -13,7 +13,6 @@
 	"devDependencies": {
 		"@iconify/svelte": "^3.1.6",
 		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/enhanced-img": "^0.1.8",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "8.56.0",
@@ -27,15 +26,10 @@
 		"svelte": "^4.2.7",
 		"tailwindcss": "^3.4.1",
 		"vite": "^5.0.3",
-		"vite-imagetools": "^6.2.9",
 		"vitest": "^1.2.0"
 	},
 	"type": "module",
 	"dependencies": {
-		"@popperjs/core": "^2.11.8",
-		"@splidejs/svelte-splide": "^0.2.9",
-		"flowbite": "^2.2.1",
-		"flowbite-svelte": "^0.44.22",
-		"tailwind-merge": "^2.2.1"
+		"@splidejs/svelte-splide": "^0.2.9"
 	}
 }
