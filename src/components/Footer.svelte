@@ -10,7 +10,7 @@
     <div class="max-w-100% p-10 flex justify-around">
 
         <div>
-            <a href="/"><h2>AZUR FM ANIE</h2></a>
+            <a href=""><h2>AZUR FM ANIE</h2></a>
         </div>
         <div class="container1">
             <div class="ecouter">
