@@ -1,5 +1,4 @@
 <script>
-
 	import { fly, slide} from "svelte/transition";
 
 </script>

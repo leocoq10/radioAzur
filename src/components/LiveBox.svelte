@@ -1,7 +1,4 @@
 
-
-
-
 <div class="livo">
 
     <p class="live">

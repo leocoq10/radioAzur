@@ -28,14 +28,12 @@
 	let routeId;
 	$: routeId = $page.route.id;
 
-	let block;
 	let show = false;
 
 	function affiche() {
 		show = !show;
 	}
 
-	$: block = show;
 </script>
 
 <nav>
