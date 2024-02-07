@@ -31,6 +31,7 @@
 	"type": "module",
 	"dependencies": {
 		"@splidejs/svelte-splide": "^0.2.9",
+		"flowbite": "^2.2.1",
 		"flowbite-svelte": "^0.44.22"
 	}
 }
